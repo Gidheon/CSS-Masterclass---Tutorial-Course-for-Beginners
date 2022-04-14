@@ -9,6 +9,14 @@ button {
     font-family: 'Lato', sans-serif;
 }
 
+h1{
+    margin: 0;
+}
+
+p{
+    margin: 0;
+}
+
 .bg-gray-900 {
     background-color: #121826;
 }
@@ -162,6 +170,48 @@ button {
     color: #90CAC7;
 }
 
-.font-size-60px{
+.font-60px{
     font-size: 60px;
+}
+
+.max-width{
+    max-width: 538px;
+}
+
+.p-449px{
+    max-width: 449px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.button-margin{
+    margin-top: 28px;
+    border-radius: 4px;
+}
+
+.text-brand-teal-dark{
+    color: #539D98, 100%; /* //no cambia */
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-36px{
+    font-size: 36px;
+}
+
+@media (min-width:640px) {
+   .sm\:text-60px{
+       font-size: 60px;
+   }
 }
