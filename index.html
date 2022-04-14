@@ -11,10 +11,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;700&display=swap"
         rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header class="bg-gray-900 flex justify-between p-8 ptblr-1812">
+    <header class="bg-gray-900 flex justify-between p-8 ptblr-1812 z-10 style-padding-18-12">
         <div class="flex justify-center items-center">
             <img src="images/logo_dark.svg" alt="" class="img-margin-right">
             <a href="" class="text-white py-8 px-16 no-underline">Pricing</a>
@@ -24,9 +25,29 @@
         </div>
         <div class="flex items-center">
             <a href="" class="text-white py-8 px-16 login-margin-right">Login</a>
-            <button>Sing up</button>
+            <button
+                class="bg-brand-teal text-white border-none rounded-full py-12 px-28 font-bold upper-case text-sm">Sign
+                up</button>
         </div>
     </header>
+
+    <section class="relative">
+        <video loop="loop" autoplay="autoplay" playsinline="" muted="muted" class="w-full object-cover"
+            style="min-height: 550px;" src="videos/galaxy.mp4">
+        </video>
+        <!-- <img src="images/hero.jpg" alt="" class="w-full"> -->
+
+        <div>
+            <h1>Turbocharge your
+                <span class="text-brand-teal">
+                    development career
+                </span> 
+                </h1 class="font-size-60px">
+            <p>Chris Courses provides students and professionals a collage-level web development education.</p>
+            <button>Get started</button>
+        </div>
+    </section>
 </body>
+<!--  -->
 
 </html>
