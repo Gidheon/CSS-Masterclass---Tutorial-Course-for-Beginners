@@ -180,7 +180,6 @@ p{
 
 .p-449px{
     max-width: 449px;
-    font-size: 20px;
     margin-top: 20px;
 }
 
@@ -206,6 +205,10 @@ p{
     margin-right: auto;
 }
 
+.text-16px{
+    font-size: 16px;
+}
+
 .text-36px{
     font-size: 36px;
 }
@@ -213,5 +216,9 @@ p{
 @media (min-width:640px) {
    .sm\:text-60px{
        font-size: 60px;
+   }
+
+   .sm\:text-20px{
+       font-size: 20px;
    }
 }
